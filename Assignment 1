@@ -1,0 +1,117 @@
+
+ 
+
+
+
+  
+#operators
+
+a=int(input("Enter a number:"))
+b=int(input("Enter a number:"))
+print("add",a+b)
+print("sub",a-b)
+print("mul",a*b)
+print("div",a/b)
+print("exp",a**b)
+print(a//b)
+
+
+
+
+
+
+
+
+#simple interest
+
+p=int(input("Enter principle amount:"))
+t=int(input("Enter the time duration(In years):"))
+r=int(input("Enter the interest rate:"))
+si=p*t*r
+res=si/100
+print(res)
+
+
+#Area of the circle
+
+r=int(input("Enter the radius of the circle:"))
+area=3.14*r*r
+print("Area of the circle is:",area)
+
+
+#Area of the triangle
+
+length=int(input("enter the length of triangle"))
+breadth=int(input("enter the breadth of triangle"))
+triangle=(1/2)*length*breadth
+print("area of the triangle is:",triangle)
+
+
+
+
+
+
+
+
+
+
+
+#Temperature in Celsius to Fahrenheit.
+
+celsius=int(input("enter the celsius"))
+fahrenheit=celcius*1.8+32
+print("after converting inti fahrenheit:",fahrenheit)
+    
+                  
+
+
+
+
+
+#Area of rectangle.
+
+length=int(input("Enter the length of the rectangle:"))
+breadth=int(input("Enter the breadth of the rectangle:"))
+rect=length*breadth
+print("area of rectangle:",rect)
+
+
+#Perimeter of a square.
+
+
+square=int(input("Enter the side of the Square:"))
+perimeter=4*square
+print("Perimeter of the Square is:",perimeter)
+
+
+
+#Circumference of a circle.
+
+radius=int(input("Enter the radius of the circle:"))
+ circumference=2*3.14*radius
+print("Circumference of the circle is:",circumference)
+
+
+
+#Swap two numbers.
+
+a=int(input("Enter a number:"))
+b=int(input("Enter a number:"))
+print ("values before Swapping",a,b)
+temp=a
+a=b
+b=temp
+print("Values after Swapping",a,b)
+
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
